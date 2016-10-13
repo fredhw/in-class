@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+	<!-- 
+	CSE 154
+	This web page shows colored rectangles that can be moved and colored randomly.
+	-->
+
+	<head>
+		<title>Colored Rectangles</title>
+		<link href="https://dl.dropbox.com/s/ymjtmx3phls9djj/neorectangles.css?dl=0" type="text/css" rel="stylesheet" />
+		<script src="https://dl.dropbox.com/s/mzgo8homh6qph97/neorectangles.js?dl=0" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<h1>
+			<div class="rectangle"></div>
+			Flow-It!
+			<div class="rectangle"></div>
+		</h1>
+
+		<p>Instructions: Click Flow and choose something from the second row!</p>
+		
+		<div id="rectanglearea">
+		</div>
+		
+		<fieldset>
+			<legend>controls:</legend>
+			
+			<select id="count">
+				<option value="1">1</option>
+				<option value="50" selected="selected">50</option>
+				<option value="200">100</option>
+			</select>
+				<button id="color">Color</button>
+				<button id="move">Move</button>
+	  			<button id ="flow">Flow</button>
+	      		<button id ="stop">Stop</button>	
+		</fieldset>
+
+		<fieldset>
+			<legend>Extra:</legend>
+			<button id ="rain">Rain</button>
+      		<button id ="snow">Snow</button>
+      		<button id ="fireflies">Fireflies</button>
+      		<button id ="lava">Red Blood Cells</button>
+      		<button id ="cherry">Cherry Blossoms</button>
+      		<button id ="hyperspace">Hyperspace</button>
+      		<button id ="default">Default</button>
+		</fieldset>
+	</body>
+</html>
