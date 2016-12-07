@@ -1,0 +1,22 @@
+Last Resort
+
+This is a suggestion for an app that should be able to be done in 48 hours.
+
+memegenerator.net
+
+1. Able to load an image in a div named canvas
+2. Able to fill a form for text displayed on canvas
+- header text
+- footer text
+3. Able to change css on image
+- font-size
+- font-style
+4. Able to remove edits
+5. (Optional) Undo/Redo
+6. !!Using html2canvas to save the html elements into an image on page
+7. Able to download said image
+8. Images made are saved on localStorage
+9. Sample images on a sticky bar on page
+10. (Optional) Share on Instagram/Twitter/Facebook
+11. (Optional) Sample Images on Firebase
+12. (Optional) User submitted images on Firebase
